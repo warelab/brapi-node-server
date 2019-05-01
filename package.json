@@ -1,0 +1,20 @@
+{
+  "name": "brapi-test",
+  "version": "1.0.0",
+  "description": "playtime with BrAPI",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Andrew Olson",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "express-openapi": "^4.5.0",
+    "neo4j-driver": "^1.7.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
